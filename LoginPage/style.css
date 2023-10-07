@@ -10,7 +10,7 @@
 body{
     display: flex;
     min-height: 100vh;
-    background: url('flowers01.jpg') no-repeat;
+    background: url('https://raw.githubusercontent.com/princekunal101/web-design/main/screenshot/flowers01.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -113,7 +113,7 @@ text-decoration: none;
 .login-button .loginbtn {
 justify-content: center;
     color: whitesmoke;
-    background: #0388ed72;
+    background: #0388ed82;
     backdrop-filter: blur(20px);
     text-transform: uppercase;
     width: 100%;
