@@ -1,0 +1,17 @@
+## Registration Form
+### The HTML ```<form>``` Elements
+The HTML ```<form>``` element can contain one or more of the following form elements:
+```
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist>
+<output>
+<option>
+<optgroup>
+```
+
