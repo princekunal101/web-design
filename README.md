@@ -1,6 +1,23 @@
 # HTML
 Hyper Text Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It define the meaning and structure of web content. It often assisted by technologies such as cascading style sheets and scripting language such as JavaScript.
 
+
+
+If you want display HTML as code sample. You can use formatting for code
+
+Examples:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is a title</title>
+  </head>
+  <body>
+    <p>Hello world!</p>
+  </body>
+</html>
+```
 <!DOCTYPE html>
 <html>
 <body>
