@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flexbox;
+    position: relative;
+
+    width: 100%;
+}
+
+header {
+    position: relative;
+    top: 0;
+    z-index: 3;
+    
+}
+
+.heading {
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: #3333338c;
+    color: whitesmoke;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+    z-index: 3;
+}
+
+/** Logo & College Name**/
+.clg-box {
+    position: relative;
+    display: flex;
+    margin-top: 48px;
+    justify-content: center;
+} 
+.clg-box img{
+    height: 120px;   
+}
+
+/** Container **/
+.container {
+    position: relative;
+    display: flex;
+    min-height: 800px;
+    width: 100%;
+    min-width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    align-content: center;
+    margin: 24px;
+}
+
+form h3 {
+    font-size: 2rem;
+}
+.reg-title{
+    margin-left: 24px;
+}
+.fill-form {
+    display: table;
+    margin: 24px;
+
+}
+
+div {
+    display: flexbox;
+}
+
+legend {
+    font-size: 1.2rem;
+    margin-top: 12px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-left: 8px;
+    margin-right: 22px;
+}
+
+.fill-box {
+    display: table-cell;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    height: 32px;
+    width: 200px;
+    font-size: 1rem;
+    padding-left: 8px;
+    border-radius: 4px;
+    border-color: dimgray;
+}
+
+.gender {
+    display: flex;
+    position: relative;
+}
+
+.fill-r-button {
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.fill-r-button:hover {
+    cursor: pointer;
+}
+
+select {
+    width: 200px;
+    text-align: center;
+    height: 28px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.submit {
+    background-color: #3333338c;
+    color: whitesmoke;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #33333371;
+}
+
+
+
+@media (min-width: 550px)  {
+    .submit-btn {
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email {
+        width: 300px;
+    }
+
+    .trow {
+        display: flex;
+
+    }
+
+}
+
+@media (min-width: 550px) and (max-width: 700px) {
+    .heading {
+
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    legend {
+        font-size: 1.1rem;
+    }
+
+    label {
+        font-size: 1.1rem;
+    }
+
+    .fill-box {
+        font-size: 1rem;
+    }
+
+    form h3 {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
+
+    .email {
+        width: 250px;
+    }
+    .clg-box img{
+        height: 90px;
+    }
+  
+    
+}
+
+@media (max-width: 550px) {
+    .heading {
+
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    legend {
+        font-size: 1.0rem;
+    }
+
+    label {
+        font-size: 1.0rem;
+        margin-left: 3px;
+        margin-right: 7px;
+    }
+
+    .fill-box {
+        font-size: 0.9rem;
+    }
+
+    form h3 {
+        font-size: 1.5rem;
+        margin-bottom: 14px;
+    }
+    .clg-box img{
+        height: 60px;
+    }
+  
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#555555aa">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            College Registration Form
+        </div>
+        <div class="clg-box">
+            <img src="https://raw.githubusercontent.com/princekunal101/web-design/main/screenshot/logo.jpg">
+        </div>
+    </header>
+
+
+    <div class="container">
+        <form>
+            <h3>Resistration form</h3>
+            <fieldset>
+                <legend class="reg-title">Fill your Registration information</legend>
+                <div class="fill-form">
+                    <div>
+
+                        <legend> Enter Your Name *</legend>
+                        <input class="fill-box" type="text" placeholder="First Name" required>
+                        <input class="fill-box" type="text" placeholder="Middle Name">
+                        <input class="fill-box" type="text" placeholder="Last Name" required>
+
+                    </div>
+
+                    <div>
+                        <legend>Enter Your Father's Name *</legend>
+
+                        <input class="fill-box" type="text" placeholder="First Name" required>
+                        <input class="fill-box" type="text" placeholder="Last Name" required>
+                    </div>
+
+                    <div>
+                        <legend>Enter Your Mother's Name *</legend>
+
+                        <input class="fill-box" type="text" placeholder="First Name" required>
+                        <input class="fill-box" type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="trow">
+                        <div>
+                            <legend>Date of Birth *</legend>
+                            <input class="fill-box" type="date" required>
+                        </div>
+                        <div>
+                            <legend>Gender *</legend>
+                            <div class="gender">
+                                <div>
+                                    <input class="fill-r-button" type="radio" name="gender" required>
+                                    <label>Male</label>
+                                </div>
+                                <div><input class="fill-r-button" type="radio" name="gender">
+                                    <label>Female</label>
+                                </div>
+
+                                <div> <input class="fill-r-button" type="radio" name="gender">
+                                    <label>Other</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="trow">
+                        <div>
+                            <legend>Aadhar Number *</legend>
+
+                            <input class="fill-box" type="number" placeholder="0000-0000-0000" required>
+                        </div>
+                        <div>
+                            <legend>Country *</legend>
+                            <select name="country" class="fill-box">
+                                <option value="">--Please Select--</option>
+                                <option value="india">India</option>
+                                <option value="uae">UAE</option>
+                                <option value="usa">USA</option>
+                                <option value="korian">South Koria</option>
+                                <option value="russia">Russia</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="trow">
+                        <div>
+                            <legend>Phone Number *</legend>
+
+                            <input class="fill-box" type="number" placeholder="000 0000 000">
+                        </div>
+                        <div>
+                            <legend>E-Mail </legend>
+                            <input class="fill-box email" type="email" placeholder="E-Mail">
+                        </div>
+                    </div>
+
+                    <div>
+                        <legend>Permanent Address *</legend>
+                        <input class="fill-box" type="text" placeholder="Street Address">
+                        <input class="fill-box" type="text" placeholder="Street Address Line 2">
+                        <input class="fill-box" type="text" placeholder="State" required>
+                        <input class="fill-box" type="text" placeholder="City" required>
+                        <input class="fill-box" type="number" placeholder="Pin Code" required>
+
+
+                    </div>
+                    <div>
+                        <input class="fill-check" type="checkbox">
+                        <label>Same as Avobe</label>
+                        <legend>Temparoray Address</legend>
+
+
+                        <input class="fill-box" type="text" placeholder="Street Address">
+                        <input class="fill-box" type="text" placeholder="Street Address Line 2">
+                        <input class="fill-box" type="text" placeholder="State">
+                        <input class="fill-box" type="text" placeholder="City">
+                        <input class="fill-box" type="number" placeholder="Pin Code">
+
+                    </div>
+                    <div class="submit-btn">
+                        <input class="fill-box submit" type="submit" readonly>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
