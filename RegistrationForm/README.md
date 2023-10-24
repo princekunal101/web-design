@@ -14,3 +14,11 @@ The HTML ```<form>``` element can contain one or more of the following form elem
 ```<option>```
 ```<optgroup>```
 
+#### System Output.
+
+![login page](https://raw.githubusercontent.com/princekunal101/web-design/main/screenshot/RegistrationForm-2023-10-25.png)
+
+
+#### Output.
+
+![login page](https://raw.githubusercontent.com/princekunal101/web-design/main/screenshot/RegistrationForm-2023-10-24.png)
