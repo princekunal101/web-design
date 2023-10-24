@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     display: flex;
     min-height: 100vh;
     background: url('https://raw.githubusercontent.com/princekunal101/web-design/main/screenshot/flowers01.jpg') no-repeat;
@@ -15,7 +16,8 @@ body{
     background-position: center;
     justify-content: center;
 }
-.container{
+
+.container {
     position: relative;
     background: transparent;
     margin: 100px;
@@ -25,30 +27,30 @@ body{
     border-radius: 10px;
     width: 100%;
     height: 100%;
-    box-shadow:0 1px 10px #0000002d ;
+    box-shadow: 0 1px 10px #0000002d;
     backdrop-filter: blur(40px);
     border: 2px solid rgba(245, 245, 245, 0.532);
     justify-self: center;
-   
-    
-   /* filter: blur(4px);
-    -webkit-filter: blur(5px);*/
+
+
 
 }
 
-.heading h3{
+.heading h3 {
     text-align: center;
     color: rgba(245, 245, 245, 0.993);
     margin-bottom: 20px;
-    font-size: 2.5em;   
+    font-size: 2.5em;
 }
-.title{
+
+.title {
     position: relative;
     padding: 10px;
     margin: 30px 0;
     width: 100%;
 }
-.title p{
+
+.title p {
     background-color: none;
     text-align: start;
     justify-self: end;
@@ -57,7 +59,8 @@ body{
     font-size: 1.1em;
     margin: 30px 0px 2px 5px;
 }
-.input{
+
+.input {
     position: relative;
     margin-top: 5px;
     width: 100%;
@@ -71,30 +74,34 @@ body{
     font-size: 1.0em;
     color: whitesmoke;
 }
-.input::placeholder{
+
+.input::placeholder {
     color: rgba(245, 245, 245, 0.732);
 }
-.title i{
+
+.title i {
     position: absolute;
     right: 30px;
     transform: translateY(130%);
     color: rgba(245, 245, 245, 0.732);
 }
 
-.forget-link a{
+.forget-link a {
     display: flex;
     background: none;
     justify-content: end;
     color: whitesmoke;
     font-size: 0.9em;
     cursor: pointer;
-    margin: -20px 10px 20px ;
-text-decoration: none;
+    margin: -20px 10px 20px;
+    text-decoration: none;
 }
-.forget-link a:hover{
+
+.forget-link a:hover {
     text-decoration: underline;
 }
-.forget-link label{
+
+.forget-link label {
     color: whitesmoke;
     padding: 10px;
     cursor: pointer;
@@ -102,24 +109,26 @@ text-decoration: none;
     justify-content: space-between;
     text-decoration: none;
 }
-.forget-link label input{
+
+.forget-link label input {
     accent-color: whitesmoke;
     margin-right: 4px;
-    
+
 }
-.login-button{
-    
-    margin: 60px 10px 20px 10px ;
+
+.login-button {
+
+    margin: 60px 10px 20px 10px;
 }
+
 .login-button .loginbtn {
-justify-content: center;
+    justify-content: center;
     color: whitesmoke;
     background: #0388ed82;
     backdrop-filter: blur(20px);
     text-transform: uppercase;
     width: 100%;
     height: 50px;
-    
     border-radius: 25px;
     border: 0;
     outline: none;
@@ -128,14 +137,17 @@ justify-content: center;
     box-shadow: 0 1px 5px #0000002d;
 
 }
-.register-link{
+
+.register-link {
     color: whitesmoke;
     margin-left: 10px;
 }
-.register-link a{
+
+.register-link a {
     color: whitesmoke;
     text-decoration: none;
 }
-.register-link a:hover{
+
+.register-link a:hover {
     text-decoration: underline;
 }
