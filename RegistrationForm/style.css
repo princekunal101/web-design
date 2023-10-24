@@ -8,7 +8,6 @@
 body {
     display: flexbox;
     position: relative;
-
     width: 100%;
 }
 
@@ -16,7 +15,6 @@ header {
     position: relative;
     top: 0;
     z-index: 3;
-    
 }
 
 .heading {
@@ -42,9 +40,10 @@ header {
     display: flex;
     margin-top: 48px;
     justify-content: center;
-} 
-.clg-box img{
-    height: 120px;   
+}
+
+.clg-box img {
+    height: 120px;
 }
 
 /** Container **/
@@ -66,9 +65,11 @@ form {
 form h3 {
     font-size: 2rem;
 }
-.reg-title{
+
+.reg-title {
     margin-left: 24px;
 }
+
 .fill-form {
     display: table;
     margin: 24px;
@@ -141,7 +142,7 @@ select {
 
 
 
-@media (min-width: 550px)  {
+@media (min-width: 550px) {
     .submit-btn {
         margin-top: 18px;
         display: flex;
@@ -187,11 +188,12 @@ select {
     .email {
         width: 250px;
     }
-    .clg-box img{
+
+    .clg-box img {
         height: 90px;
     }
-  
-    
+
+
 }
 
 @media (max-width: 550px) {
@@ -219,8 +221,9 @@ select {
         font-size: 1.5rem;
         margin-bottom: 14px;
     }
-    .clg-box img{
+
+    .clg-box img {
         height: 60px;
     }
-  
+
 }
