@@ -1,6 +1,5 @@
 ## Result Sheet Output
 ![Result Sheet Output](https://raw.githubusercontent.com/princekunal101/web-design/main/screenshot/AktuResultSheet(khushi).png)
->with permission*
 ## Table Elements
 
 #### Table Cell
