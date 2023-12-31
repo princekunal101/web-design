@@ -13,7 +13,6 @@ body {
 
 .container {
     position: relative;
-    margin-top: 50px;
     text-align: center;
     transform: translateY(15%);
     background-color: white;
@@ -65,7 +64,7 @@ img {
 
 .cont-box p {
     color: gray;
-    margin-top: -38px;
+    margin-top: -48px;
     font-weight: 600;
     font-size: 1.8em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
