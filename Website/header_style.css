@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  position: relative;
+}
+
+/*header code*/
+header {
+  top: 0;
+  width: 100%;
+  height: 58px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background: rgba(223, 219, 213, 0.7);
+  backdrop-filter: blur(12px);
+  z-index: 999;
+}
+
+.global-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 32px;
+}
+
+.global-nav-links {
+
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.global-nav-links li {
+  height: 50px;
+  margin: 0 4px;
+}
+
+.global-nav-links li a {
+  height: 100%;
+  padding: 0 8px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  opacity: 0.7;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.global-nav-links li a:hover {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+
+.global-nav-bar .global-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 4px;
+
+}
+
+.global-nav-bar .global-logo-label {
+  font-family: cursive;
+  color: black;
+  cursor: pointer;
+  opacity: 0.7;
+  margin: 0 8px;
+  transition: all 0.5s ease;
+}
+
+.global-nav-bar .global-logo:hover .global-logo-label {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.global-contact button {
+  height: 38px;
+  background: black;
+  border: none;
+  color: white;
+  padding: 4px 16px;
+  margin: 4px 48px;
+  border-radius: 19px;
+  font-size: 0.9em;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.global-contact button:hover {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.checkbtn {
+  display: none;
+  color: black;
+  line-height: 48px;
+  cursor: pointer;
+  opacity: 0.7;
+  z-index: 999;
+}
+
+.checkbtn:hover {
+  opacity: 1;
+}
+
+.global-nav-option-bar svg {
+  display: flex;
+
+}
+
+#check {
+  display: none;
+}
+
+
+/*system view*/
+@media (max-width: 769px) {
+
+  .global-nav-links li .active {
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  .global-nav-links li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+  }
+
+  .global-nav-links {
+    /*display: none;*/
+    display: block;
+    position: fixed;
+    width: 300px;
+    height: 100vb;
+    top: 0px;
+    background: rgb(223 219 213/95%);
+    backdrop-filter: blur(12px);
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s ease;
+    padding-top: 100px;
+    z-index: 998;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  #check:checked~.global-nav-links {
+    right: 0%;
+    transition: all 0.5s ease;
+  }
+
+  .global-contact button {
+    display: none;
+  }
+}
+
+/*tab view*/
+@media (max-width: 426px) {
+  .global-nav-links {
+    width: 100%;
+  }
+}
+
+/*header*/
