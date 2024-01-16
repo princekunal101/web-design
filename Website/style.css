@@ -56,18 +56,3 @@ body {@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,5
 }
 
 
-/*conatainer body*/
-.container {
-  width: 100%;
-  margin: 50px 0;
-  padding: 0 16px;
-}
-
-h1 {
-  font-weight: 800; 
-  font-size: 3.2em;
-}
-
-p {
-  opacity: 0.8;  
-}
