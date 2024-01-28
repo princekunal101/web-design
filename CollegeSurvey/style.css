@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  font-family:sans-serif;
+}
+.container{
+  width: 100%;
+  
+}
+
+h2{
+  text-align: center;
+  background-color: aquamarine;
+  padding: 12px 0;
+}
+
+.form--container{
+padding: 16px;
+}
+
+form .box-label{
+  display: block;
+  font-weight: 800;
+}
+.box-label .inp-elm , .sl-elm{
+  padding: 4px;
+  margin: 8px;
+}
+
+.rating .title{
+  color: gray;
+}
+
+.catogory{
+  margin:  4px 0 16px 0 ;
+}
+
+.catogory input{
+  
+  margin-left: 32px;
+}
+
+.submit-btn{
+  width: 450px;
+  padding:4px 8px;
+}
