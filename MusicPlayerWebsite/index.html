@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Music Player</title>
+
+  <div id="player-container">
+    <h1>Online Music Player</h1>
+    <audio id="audio-player" controls>
+      <source src="" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+
+    <div id="audio-controls">
+      <button onclick="playPause()">Play/Pause</button>
+      <button onclick="stop()">Stop</button>
+      <button onclick="next()">Next Track</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+  </body>
+
+</html>
